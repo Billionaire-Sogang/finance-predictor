@@ -1,3 +1,4 @@
+
 from typing import List, Dict, Optional, Any, Union
 import json
 from langchain_upstage import ChatUpstage as Chat
@@ -103,3 +104,4 @@ Provide only the keywords or short phrases, separated by commas.""",
     search_results = search_tool.run(search_query)
     # Step 3: Return the search results
     return search_results
+

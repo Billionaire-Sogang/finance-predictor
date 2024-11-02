@@ -1,3 +1,4 @@
+
 import os
 import getpass
 from pprint import pprint
@@ -48,3 +49,4 @@ chat_result = client.chat.completions.create(
 # pprint(chat_result)
 # print("Message only:")
 pprint(chat_result.choices[0].message.content)
+
